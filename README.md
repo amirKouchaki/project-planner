@@ -2,7 +2,7 @@
 
 The project idea is from [Vue 3 Udemy Course - Net Ninja](https://www.udemy.com/course/build-web-apps-with-vuejs-firebase/) but I tried to do the project myself before I see how it is done in the tutorial, therefore all the code is original. I am aware that I should work on how I structre and pass data in components but I am still new to Vue.js.In this project,you can create,complete,delete,add and edit a project. Thanks!!
 
-## screenShots
+## screenshots
 
 ### creating a project
 
