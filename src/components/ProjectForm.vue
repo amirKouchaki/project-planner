@@ -42,8 +42,8 @@ export default {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({
-                        title: this.title,
-                        details: this.details,
+                        title: this.project.title,
+                        details: this.project.details,
                         completed: false,
                     }),
                 }).then(() => this.$router.push({ name: 'home' }))
@@ -72,7 +72,7 @@ export default {
     display: flex;
     flex-direction: column;
     gap: 1em;
-    width: min(33em, 85%);
+    width: min(40em, 85%);
     margin: 0 auto;
     background: white;
     border-radius: 0.5em;
@@ -100,7 +100,6 @@ export default {
     border: none;
     border-bottom: 1px #ddd solid;
     line-height: 1.6;
-    letter-spacing: 1px;
     padding: 0.1em;
     font-size: 1rem;
 }
@@ -111,10 +110,8 @@ textarea {
     outline: none;
     padding: 0.7em;
     border: 2px #ddd solid;
-    letter-spacing: 2px;
     line-height: 1.6;
-    font-size: 1rem;
-    font-weight: bold;
+    font-size: 1.1rem;
 }
 
 .submit-btn {
